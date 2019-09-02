@@ -63,7 +63,7 @@ namespace WhatsApp
         {
             if (!OffLine)
             {
-                Console.WriteLine(this.Name + " ha recibido un mensaje de {0} : {1}", MessageReceived.Source.Name, MessageReceived);
+                Console.WriteLine(this.Name + " ha recibido un de {0} : {1}", MessageReceived.Source.Name, MessageReceived);
                 //lo marca como recibido
                 MessageReceived.Received = true;
                 //lo agrega a la lista de mensajes recibidos

@@ -23,7 +23,7 @@ namespace WhatsApp
         {
             UserList.Add(User);
             if (Show)
-                Console.WriteLine("Se ha agregado el usuario {0} Id {1} en la lista {2}", User.Name, User.Id, this.Name);
+                Console.WriteLine("Se ha el usuario {0} Id {1} en la lista {2}", User.Name, User.Id, this.Name);
         }
 
         public int Count()
